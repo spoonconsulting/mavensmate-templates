@@ -1,0 +1,168 @@
+{  
+    "ApexClass":[  
+        {  
+            "name":"Default",
+            "file_name":"ApexClass.cls",
+            "description":"The default template for an Apex Class",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+        {  
+            "name":"Batch",
+            "file_name":"BatchApexClass.cls",
+            "description":"Batch Apex Class",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+        {  
+            "name":"Controller Extension",
+            "file_name":"ControllerExtension.cls",
+            "description":"Controller extension Apex Class",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+        {
+            "name":"RestResource",
+            "file_name":"RestResourceApexClass.cls",
+            "description":"A RestResource class",
+            "author":"SC",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyRestResourceApexClass"
+                },
+                {
+                    "name":"object_name",
+                    "description":"API name of the Standard or Custom Object",
+                    "default":"Contact"
+                },
+                {
+                    "name":"url",
+                    "description":"URL Mapping",
+                    "default":"contact"
+                }
+            ]
+        },
+        {  
+            "name":"Trigger Handler",
+            "file_name":"TriggerHandler.cls",
+            "description":"An Interface that handles Trigger actions",
+            "author":"SC",
+            "params":[  
+                {
+                    "name":"api_name",
+                    "description":"Object API Name",
+                    "default":"Account"
+                },
+                {
+                    "name":"object_prefix",
+                    "description":"Object API prefix",
+                    "default":"Acc"
+                }
+            ]
+        },
+        {
+            "name":"Unit Test",
+            "file_name":"UnitTestApexClass.cls",
+            "description":"Unit test class",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        }
+    ],
+    "ApexComponent":[  
+        {  
+            "name":"Visualforce Component",
+            "file_name":"ApexComponent.component",
+            "description":"Basic Visualforce Component template",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Visualforce Component API Name",
+                    "default":"MyVisualforceComponent"
+                }
+            ]
+        }
+    ],
+    "ApexPage":[  
+        {  
+            "name":"Visualforce Page",
+            "file_name":"ApexPage.page",
+            "description":"Basic Visualforce Page template",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Visualforce Page API Name",
+                    "default":"VFP_PageName"
+                }
+            ]
+        },        
+        {
+            "name": "Lightning Design System",
+            "file_name": "LightningDesignSystem.page",
+            "description": "Visualforce Page ready to use SLDS.",
+            "author": "@SuperPluck",
+            "params": [
+                {
+                    "name": "api_name",
+                    "description": "Visualforce Page API Name",
+                    "default": "MyVisualforcePageName"
+                }, {
+                    "name": "static_resource",
+                    "description": "Static resource with lds",
+                    "default": "SLDSXXX"
+                }, {
+                    "name": "page_title",
+                    "description": "Page title",
+                    "default": "MyVisualforcePageTitle"
+                }
+            ]
+        }
+    ],
+    "ApexTrigger":[  
+        {  
+            "name":"Apex Trigger",
+            "file_name":"ApexTrigger.trigger",
+            "description":"Basic Apex Trigger template",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Trigger API Name",
+                    "default":"ObjTrigger"
+                },
+                {  
+                    "name":"object_name",
+                    "description":"Object API Name",
+                    "default":"Account"
+                }
+            ]
+        }        
+    ]
+}

@@ -1,0 +1,22 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" docType="html-5.0">
+	  <!-- ************************************************************* -->
+  	<!-- @Author  	SC (XXX)     ************************************* -->
+  	<!-- @Version   1.0        	 ************************************* -->
+  	<!-- @since   	10/04/2017   ************************************* -->
+  	<!-- ************************************************************* -->
+  	<apex:stylesheet value="{!URLFOR($Resource.<STATIC_RESOURCE>, '<CSS_FILENAME>.css')}" />
+  	<apex:includeScript value="{!URLFOR($Resource.<STATIC_RESOURCE>, '<JS_FILENAME>.js')}" />
+  	
+  	<!-- ************************************************************* -->
+  	<!-- ****************  				BODY    	         *****************-->
+ 	  <!-- ************************************************************* -->
+ 	
+   	<script type="text/javascript">
+  	    if(typeof jQuery != 'undefined'){
+  	        $j = jQuery.noConflict();
+  	    }
+
+        $j(document).ready(function() {});
+
+    </script>
+</apex:page>
