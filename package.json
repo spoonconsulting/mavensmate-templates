@@ -13,6 +13,19 @@
                 }
             ]
         },
+		{  
+            "name":"Lightning controller",
+            "file_name":"LightningController.cls",
+            "description":"The default template for a lightning controller",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Lightning controller class name",
+                    "default":"LC_LightningController"
+                }
+            ]
+        },
         {  
             "name":"Batch",
             "file_name":"BatchApexClass.cls",
