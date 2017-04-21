@@ -123,10 +123,23 @@
         }
     ],
     "ApexPage":[  
+		{  
+            "name":"Default",
+            "file_name":"BasicPage.page",
+            "description":"Basic Visualforce Page template",
+            "author":"SC",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Visualforce Page API Name",
+                    "default":"VFP_PageName"
+                }
+            ]
+        },   
         {  
             "name":"Visualforce Page",
             "file_name":"ApexPage.page",
-            "description":"Basic Visualforce Page template",
+            "description":"Visualforce Page template",
             "author":"SC",
             "params":[  
                 {  
