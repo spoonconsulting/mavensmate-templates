@@ -103,7 +103,17 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyApexClass"
-                }
+                },
+				{  
+                    "name":"trigram",
+                    "description":"User trigram",
+                    "default":"XXX"
+                },
+				{  
+                    "name":"date",
+                    "description":"Created date",
+                    "default":"dd/mm/yyyy"
+                }				
             ]
         }
     ],
