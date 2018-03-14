@@ -1,7 +1,7 @@
 /**
- * @author 	SC (<TRIGRAM>)
+ * @author 	SC ({{ trigram}})
  * @version 1.0
- * @since	<LastModifiedDate>
+ * @since	{{date}}
  *
  * Describe here what the class do
  * 
@@ -9,7 +9,7 @@
  *--
  *-- Date         Name  Version  Remarks 
  *-- -----------  ----  -------  -------------------------------------------------------
- *-- DD-MMM-YYYY  <TRIGRAM>    1.0     Initial version
+ *-- DD-MMM-YYYY  {{ trigram}}    1.0     Initial version
  *--------------------------------------------------------------------------------------
  * 
  */
@@ -29,11 +29,11 @@ private class {{ api_name }} {
 	}
 
 	/**
-	 * This method test for the following scenerio :
-	 * 	1. .....
-	 *  2. .....
-	 * 
-	 */
+     * @Prerequisite : The mock has records for what is fetch
+     * @scenerio     : Fetch accounts from nomination
+     * @result       : The list of fetch accounts is not blank 
+     * 
+     */
 	static testMethod void  getCurrentRatingTest(){
 		system.debug('## Starting test method getCurrentRatingTest');
 
