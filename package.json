@@ -197,6 +197,16 @@
                     "name":"object_name",
                     "description":"Object API Name",
                     "default":"Account"
+                },
+				{  
+                    "name":"trigram",
+                    "description":"The creator trigram",
+                    "default":"Account"
+                }
+				{  
+                    "name":"date",
+                    "description":"The created date",
+                    "default":"DD-MMM-YYYY"
                 }
             ]
         }        
